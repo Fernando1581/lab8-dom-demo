@@ -1,0 +1,63 @@
+html {
+    background: linear-gradient(135deg, #c3ecff, #667eea);
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    max-width: 360px;
+    margin: 120px auto;
+    background: rgb(250, 250, 250);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #888888;
+
+    padding-bottom: 11px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #4f7cff;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+button {
+    display: block;
+    margin: 10px auto 20px;
+    width: 86%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #4f7cff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 86%;
+    padding: 7px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4f7cff;
+    box-shadow: 0 0 0 3px rgba(79, 124, 255, 0.15);
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(79, 124, 255, 0.35);
+}

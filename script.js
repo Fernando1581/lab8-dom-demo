@@ -37,7 +37,7 @@ button.addEventListener("click", function() {
     }
 
     if (name != "") {
-        output.innerHTML += "<p style = 'color:black;'> Hello, " + name + " I am " + age + "! </p>";
+        output.innerHTML += "<p style = 'color:black;'> Hello, " + name + " you are " + age + " years old! </p>";
     }
     else {
         output.innerHTML += "<p style = 'color:black;'> Please Enter your name! </p>";
